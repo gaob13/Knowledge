@@ -22,15 +22,21 @@ Now postgresql server will accept all kinds of connections, instead of just loop
 Open it with your favorite editor and search the following line
 
 1 
+    
     host    all             all             127.0.0.1 / 32            trust
+    
 Change 
+    
     127.0.0.1/32 
     into 
     0.0.0.0/0 
+    
 to accept connections from all hosts.
 
 We now have to restart our postgresql server. Open your terminal and enter:
 
 1 
+    
     [x]psql - h localhost mydb
+    
 Keep on hacking ;-)
