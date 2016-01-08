@@ -1,4 +1,5 @@
-#PG::Error could not connect to server: Connection refused 
+#Postgres 维护心得
+##PG::Error could not connect to server: Connection refused 
     Is the server running on host "localhost" ( 127.0.0.1 ) and accepting 
     **TCP / IP** connections on port 5432 ?
 
@@ -38,3 +39,9 @@ We now have to restart our postgresql server. Open your terminal and enter:
     [x]psql - h localhost mydb
     
 Keep on hacking ;-)
+
+##不完整的语言包
+install language-pack
+
+    sudo apt-get install language-pack-en
+    sudo apt-get install language-pack-zh-hans
