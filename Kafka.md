@@ -12,3 +12,9 @@
 神坑的配置文件
 
     advertised xxx 不写是不行的！
+
+#Gradle 不能用
+使用新版就好了
+
+    sudo add-apt-repository ppa:cwchien/gradle
+
