@@ -7,5 +7,6 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 ```
 加入参数
 ```
--Dflume.root.logger=INFO,console -Dlog4j.configuration=file:/home/gaobin/tlhz-flume/apache-flume-1.6.0-bin/conf/log4j.properties
+-Dflume.root.logger=INFO,console
+-Dlog4j.configuration=file:/home/gaobin/tlhz-flume/apache-flume-1.6.0-bin/conf/log4j.properties
 ```
