@@ -1,4 +1,5 @@
 #连不上HDFS
+拒绝连接
 ```
 16/01/26 20:07:50 ERROR Executor: Exception in task 0.0 in stage 1.0 (TID 2)
 java.io.IOException: Failed on local exception: java.io.EOFException; Host Details : local host is: "gaobin-beaver/127.0.0.1"; destination host is: "192.168.1.100":9000; 
