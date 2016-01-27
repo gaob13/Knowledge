@@ -42,3 +42,16 @@ export JAVA_HOME=/your/jdk/root/path
 $ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa 
 $ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
 ```
+
+#无法向HDFS 1.x 文件追加内容
+在hdfs-site.xml中：
+```
+     <property>
+         <name>dfs.permissions</name>
+         <value>false</value>
+     </property>
+     <property>
+         <name>dfs.support.broken.append</name>
+         <value>true</value>
+     </property>
+```
