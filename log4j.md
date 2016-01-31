@@ -1,3 +1,12 @@
+#Maven
+##slf4j-log4j12
+```xml
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+```
 #log4j不打log
 ##找不到Appender
 ```
