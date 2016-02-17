@@ -8,5 +8,7 @@ gaobin  ALL=(ALL:ALL) NOPASSWD: ALL
 ```
 改密码
 ```
+echo user:pass | /usr/sbin/chpasswd
+# 以下是以前的改法
 echo password | passwd --stdin root
 ```
