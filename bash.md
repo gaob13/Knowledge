@@ -6,3 +6,7 @@ $ grep -r pattern <dir>
 ```
 gaobin  ALL=(ALL:ALL) NOPASSWD: ALL
 ```
+改密码
+```
+echo password | passwd --stdin root
+```
