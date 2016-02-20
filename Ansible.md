@@ -11,3 +11,8 @@ ansible 会将j2模板中用 {{ }} 引起来的变量填入值放到相应的位
 ```
 become=False
 ```
+#tasks之间的关系
+```
+在一条shell中cd过的路径不会传递给下一条task。
+新的task还是会从$HOME目录开始
+```
