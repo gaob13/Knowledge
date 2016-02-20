@@ -14,6 +14,6 @@ Host *
   ServerAliveInterval 60
   ServerAliveCountMax 5
   ControlMaster auto
-  ControlPath /tmp/sockets/%r@%h-%p
+  ControlPath ~/.ssh/sockets/%r@%h:%p
   ControlPersist 4h
 ```
