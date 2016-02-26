@@ -16,3 +16,7 @@ become=False
 在一条shell中cd过的路径不会传递给下一条task。
 新的task还是会从$HOME目录开始
 ```
+引用某host之fact
+```
+groups['namenode'][0]
+```
