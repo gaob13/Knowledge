@@ -55,3 +55,8 @@ $ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
          <value>true</value>
      </property>
 ```
+
+#Masters
+```
+Mastersr指的SecondaryNamenode
+```
