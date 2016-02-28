@@ -12,3 +12,7 @@ echo user:pass | /usr/sbin/chpasswd
 # 以下是以前的改法
 echo password | passwd --stdin root
 ```
+/tmp
+```
+/tmp的权限应该是777
+```
