@@ -11,3 +11,5 @@ cd zookeeper-3.3.3/src/c/
 make
 make install
 ```
+#启动
+zooKeeper需要逐台单独启动
