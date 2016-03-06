@@ -8,3 +8,4 @@ parser.add_option("-v", "--verbose",
 (options, args) = parser.parse_args()
 zkclient.options = options
 ```
+from https://github.com/phunt/zk-smoketest/blob/master/zk-smoketest.py
